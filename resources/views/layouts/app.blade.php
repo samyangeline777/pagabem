@@ -10,8 +10,17 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!--Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--Fonts Google-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!--Fonts-->
+		<link rel="stylesheet" href="{{url('assets/css/font-awesome.min.css')}}">
 </head>
 <body>
     <div id="app">
