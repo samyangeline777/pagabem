@@ -6,10 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+        <link href="Samilly\Desktop\startbootstrap-freelancer-gh-pages\vendor\bootstrap\css\bootstrap.css" rel="stylesheet">
+        <link href="Users\Samilly\Desktop\startbootstrap-freelancer-gh-pages\index.html" rel="stylesheet">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        
         <!-- Styles -->
         <style>
             html, body {
@@ -19,6 +20,7 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+
             }
 
             .full-height {
@@ -81,7 +83,7 @@
                 <div class="title m-b-md">
                     Pagabem
                 </div>
-
+                   
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
@@ -91,5 +93,7 @@
                 </div>
             </div>
         </div>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

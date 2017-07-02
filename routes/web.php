@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('tipo_conta', 'TipoContaController');
+
+$this->delete('exclui_conta/{id}', 'TipoContaController@excluiConta')->name('conta.exclui');
+
